@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+}
+
+p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+  
+
+img{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto; 
+        height: 200px; 
+}
+
+.image-text:hover{
+    color: black;
+    font-size: 55px;
+    
+}
